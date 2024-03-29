@@ -244,7 +244,6 @@ Task(
 			], ~granGrp;
 			)
 		});
-		16.do({arg i; ~g[i].set(\amp,~ampLFOs[i])});
 		OSCdef(
 			\receiver,
 			{
