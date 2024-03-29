@@ -52,7 +52,7 @@ Task(
 		.background_(Color.black)
 		.start;
 		Task({
-			var delta = ~timer.beatDur/2;
+			var delta = ~timer.beatDur/64;
 			loop {
 				3.do({
 					arg i;
